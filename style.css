@@ -1,9 +1,10 @@
 body,html{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    background-image: url(/04-Web-APIs/02-Homework/Assets/IMG_8448.PNG);
-    background-position: left top;
-    height: 100%;
+    background-image: url(IMG_8448.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%
 }
 .game-box{
     background: #eeeeee;
@@ -29,3 +30,18 @@ body,html{
     text-align: center;
     font-weight: bold;
 }
+
+#QA-buttons{
+    border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:#c616dd83;
+    font:bold 40px;
+	color:#fff;  
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
